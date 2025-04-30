@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Purwadhika Final Project Repository
 
-## Getting Started
+This project uses Express.js and Prisma as the ORM. It is used to build both a mini-project and a final-project for students of the Job Connector Web Development program.
 
-First, run the development server:
+📃 Rules
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+        ⌨️ Commit & Pull Request
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+            ✔️ Selalu gunakan `conventional commit message` saat melakukan commit atau pada saat `creating pull request`: https://www.conventionalcommits.org/en/v1.0.0/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+            ✔️ `Squash and Merge` pull request menuju ke `branch main`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+        🏷️ Standarisasi Penamaan
 
-To learn more about Next.js, take a look at the following resources:
+            📂 Penamaan File
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+                ✔️ Gunakan Format Penamaan yang Sama untuk Directory atau Files:
+                        ▪️Format penamaan directory dan file di dalam 1 project harus konsisten dan seragam antara 1 developer dengan developer lainnya.
+                        ▪️Untuk penamaan yang lebih dari 1 suku kata bisa menggunakan format `snake_case` atau `camelCase` atau `dot.case`.
+                        ▪️Example: index.ts, productsController.ts, productsService.ts
+                        ▪️Example: index.ts, products_controller.ts, products_service.ts
+                        ▪️Example: index.ts, products.controller.ts, products.service.ts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+                ✔️ Gunakan Nama File yang Deskriptif:
+                        ▪️Pilih nama yang secara akurat menggambarkan konten dari file tersebut.
+                        ▪️Hindari nama file yang terlalu umum seperti `utils.ts` atau `decode.ts`.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+                ✔️ Ikuti Standarisasi Penamaan File untuk Jenis File Tertentu:
+                        ▪️Untuk file konfigurasi, gunakan nama seperti .env, config.js, atau settings.json.
+                        ▪️Gunakan penamaan yang konsisten untuk file test, seperti menambahkan .test.js atau .spec.js ke nama file yang sedang diuji.
