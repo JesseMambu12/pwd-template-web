@@ -17,10 +17,8 @@ This project use Next.js for frontend framework. It is used to build both a mini
 
                 ✔️ Gunakan Format Penamaan yang Sama untuk Directory atau Files:
                         ▪️Format penamaan directory dan file di dalam 1 project harus konsisten dan seragam antara 1 developer dengan developer lainnya.
-                        ▪️Untuk penamaan yang lebih dari 1 suku kata bisa menggunakan format `snake_case` atau `camelCase` atau `dot.case`.
-                        ▪️Example: index.ts, productsController.ts, productsService.ts
-                        ▪️Example: index.ts, products_controller.ts, products_service.ts
-                        ▪️Example: index.ts, products.controller.ts, products.service.ts
+                        ▪️Untuk penamaan yang lebih dari 1 suku kata bisa menggunakan format `camelCase`.
+                        ▪️Example: page.tsx, productCard.tsx
 
                 ✔️ Gunakan Nama File yang Deskriptif:
                         ▪️Pilih nama yang secara akurat menggambarkan konten dari file tersebut.
