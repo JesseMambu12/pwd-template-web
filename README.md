@@ -1,6 +1,6 @@
 # Purwadhika Final Project Repository
 
-This project uses Express.js and Prisma as the ORM. It is used to build both a mini-project and a final-project for students of the Job Connector Web Development program.
+This project use Next.js for frontend framework. It is used to build both a mini-project and a final-project for students of the Job Connector Web Development program.
 
 📃 Rules
 
